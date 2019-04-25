@@ -1,7 +1,7 @@
 # Jetty SystemD Notifier
 If you were tasked with writing a .service file for Jetty, you would find that 
 it would be really handy to have some way (like
-[sd_notify][https://www.freedesktop.org/software/systemd/man/sd_notify.html#] does)
+[sd_notify](https://www.freedesktop.org/software/systemd/man/sd_notify.html) does)
 to notify SystemD about the status of Jetty.
 
 This small library does exactly that.
@@ -68,10 +68,10 @@ SuccessExitStatus=130 143
 ```
 
 ## Credits
-Thanks to [Martin Kunz][https://github.com/faljse] for providing https://github.com/faljse/SDNotify
+Thanks to [Martin Kunz](https://github.com/faljse) for providing https://github.com/faljse/SDNotify
 
 ## Disclaimer
-The content in this Github repository is distributed in the hope that it will be useful,
+The content in this GitHub repository is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details.
